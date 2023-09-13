@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{text-align: center;}
+        tab1{margin-left: auto;margin-right: auto; display: flex;}
+        #btn{background-color: green; color: white; width: 500px;}
+        #btn2{background-color:red; color: white;border-radius: 5px; width: 70px;}
+        #tab2{background-color:lightgray; color: white; border: 1px solid gray; width: 500px; margin-right: auto;margin-left: auto;}
+        #forgot{text-align: end;padding-left: 309px;}
+       
+    </style>
+</head>
+<body>
+    <center>
+    <h1>CSS Task 6</h1>
+    <table id="tab1">
+        
+            <tr>
+                <th colspan="2">
+                    <img src="user.png" alt="user">
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Username</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="">
+                    <input type="text" id="name" value="Enter Username" size="70px">
+                    
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="pass">Password</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="password" id="pass" size="70px" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Login" id="btn" size="70px" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="rem"><label for="rem">Remember me</label>
+                </td>
+            </tr>
+            </table>
+        
+    <table id="tab2" >
+        <tr>
+            <td>
+                <input type="submit" value="Cancel" id="btn2">
+            </td>
+            <td>
+                <a href="#" id="forgot">Forgot Password</a>
+            </td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
