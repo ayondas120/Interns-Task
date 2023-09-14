@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        tr{display: flex;width: max-content;}
+        .total{display: flex;}
+        #total{
+            margin-top: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: yellow;}
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            color: blue;
+
+        }
+        .box {
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+            border-right: 20px solid black;
+        }
+        .content {
+            flex: 1;
+            padding: 10px;
+        }
+        h2 {
+    color: purple; 
+}
+
+p {
+    color: purple;
+}
+    </style>
+</head>
+<body>
+    <table id="total">
+        <tr>
+            <td colspan="2">
+
+            <div class="total">
+                <div class="sidebar">
+                <br>
+                <br>
+                    <div class="box">
+                        <a>Home page </a>
+                    </div>
+                    <div class="box">
+                        <a>Musings</a>
+                    </div>
+                    <div class="box">
+                        <a>My town</a>
+                    </div>
+                    <div class="box">
+                        <a>Links</a></a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h2>My first styled page</h2>
+                    <p>Welcome to my styled page!</p>
+                    <p>It lacks images, but at least it has styles.<br> And it has links, even if they don't go anywhere... </p>
+                    <p>There should be more here, but i don't know <br>what yet.</p>
+                    <center>
+                    <hr>
+                </center>
+                    <p>Made 5 April 2004 <br>by myslef</p>
+                </div>
+                </div>
+             </td>
+        </tr>
+    </table>
+
+</body>
+</html>
